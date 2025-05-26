@@ -2,11 +2,11 @@
 const { title, description, image, link } = Astro.props;
 ---
 
-<article class=" w-80 shadow-lg bg-white rounded-2xl flex gap-5 flex-col p-5 card">
+<article class="h-[480px] w-80 shadow-lg bg-white rounded-2xl flex gap-5 flex-col justify-around p-5 card">
   <p class= 'font-bold'>{title}</p>
   <img src={image} alt={title} class="w-full h-48 object-cover" />
   <p>{description}</p>
-  <a href={link} class="inline-block">
+  <a target="_blank" rel="noopener noreferrer"  href={link} class="inline-block">
     <div class="bg-blue-900 text-white px-6 py-3 rounded-lg font-semibold text-center hover:bg-blue-950 transition">
        🔍 Ver diseño
     </div>
