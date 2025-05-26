@@ -8,6 +8,9 @@
     "preview": "astro preview",
     "astro": "astro"
   },
+  "engines": {
+  "node": ">=18.20.8"
+},
   "dependencies": {
     "@astrojs/cloudflare": "^12.5.3",
     "@tailwindcss/vite": "^4.1.7",
